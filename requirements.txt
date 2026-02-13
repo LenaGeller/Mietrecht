@@ -1,0 +1,12 @@
+streamlit
+huggingface_hub
+langchain
+langchain-openai
+openai
+langchain-core
+langchain-chroma
+python-dotenv
+dotenv
+chromadb
+pydantic
+pyyaml
