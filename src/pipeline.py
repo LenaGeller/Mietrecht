@@ -1,6 +1,6 @@
 
 from llm import prompt, model, parser
-from config import retriever
+from retrieval import retriever
 
 # --- Abfragefunktion ---
 def frage_stellen(frage: str):
