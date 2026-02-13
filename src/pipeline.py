@@ -1,8 +1,6 @@
 
-from query import normalize_query, keyword_map, build_retrieval_constraints
-from ranking import apply_document_bias
 from llm import prompt, model, parser
-from retrieval import db
+from config import retriever
 
 # --- Abfragefunktion ---
 def frage_stellen(frage: str):
