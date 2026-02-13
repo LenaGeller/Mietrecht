@@ -10,3 +10,6 @@ db = Chroma(
     collection_name=COLLECTION_NAME,
     embedding_function=emb
 )
+
+
+retriever = db.as_retriever(search_kwargs={"k": 10})
