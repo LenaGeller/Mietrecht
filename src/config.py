@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import zipfile
 from huggingface_hub import hf_hub_download
 import shutil
-from retrieval import db
 load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -49,4 +48,3 @@ CHAT_MODEL = "gpt-5-mini"
 
 TEMPERATURE = 0.1
 
-retriever = db.as_retriever(search_kwargs={"k": 10})
