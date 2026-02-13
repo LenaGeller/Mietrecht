@@ -41,7 +41,7 @@ div[data-testid="stTextInput"] {
 st.markdown(
     """
     <h2 style="margin-bottom:0.2rem;">
-        🇩🇪 F<span style="color:#6b7280;">RAG</span> den Mietrechts-Bot
+       🏠 F<span style="color:#6b7280;">RAG</span> den Mietrechts-Bot
     </h2>
     """,
     unsafe_allow_html=True
