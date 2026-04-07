@@ -11,3 +11,4 @@ dotenv
 chromadb
 pydantic
 pyyaml
+# rebuild trigger
