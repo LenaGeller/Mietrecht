@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 CHROMA_DIR = BASE_DIR / "chroma_db"
 ZIP_PATH = BASE_DIR / "chroma_db.zip"
 
-HF_REPO_ID = "lenageller/mietrecht"
+HF_REPO_ID = "Lenageller/mietrecht"
 HF_FILENAME = "chroma_db.zip"
 
 print("BASE_DIR:", BASE_DIR)
