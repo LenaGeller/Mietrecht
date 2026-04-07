@@ -5,6 +5,7 @@ langchain-openai
 openai
 langchain-core
 langchain-chroma
+protobuf==3.20.3
 python-dotenv
 dotenv
 chromadb
